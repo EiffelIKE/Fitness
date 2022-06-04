@@ -6,7 +6,8 @@ import { useNavigate } from 'react-router-dom';
 
 const Card = ({ title, description,img, leftColor, rightColor})=>{
   const navigate=useNavigate()
-let handleClick=()=>navigate('./view')
+let handleClick=()=>
+navigate('./view')
   return(
   <>
     <div  className='card '
